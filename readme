@@ -1,0 +1,33 @@
+Username: Davidsa
+Name: David Shandor   id: 302902705
+
+Program Description:
+This program is a mini-shell. The user can open a terminal and type commands to be execute. The shell use new procces to run the commands.
+
+#ex2 update: Now this shell support one pipe ("|") and redirections (<, >, >>, 2>). 
+Also supp combination of pipe and redirections. 
+The commands will be write into log.txt file, so note to attache it while run the shell (see instruction below).
+
+Compilation:
+Type in the terminal: gcc ex2.c -o ex1
+#ex2 update: Note! Before compile the file, make sure to delete makefile, so cmd:"make" will print an error.
+
+Launch the Program: 
+After compilation to ex1, in the terminal type: ./ex1 log.txt
+
+Attached filed:
+ex2.c, readme, makefile, .vscode (Launch, setting, tasks).
+
+How to use the program:
+Compile and run as the instruction above, then use command as shell.
+
+NOTE:
+This shell CAN NOT run "cd" command. 
+Also I fixed some bug with spaces-only string and some crash made by fgets() and other functions.
+
+
+
+
+
+
+

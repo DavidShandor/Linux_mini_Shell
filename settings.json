@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "memory.h": "c",
+        "features.h": "c",
+        "string.h": "c",
+        "wait.h": "c",
+        "cell.h": "c",
+        "math.h": "c",
+        "typeinfo": "c"
+    }
+}
